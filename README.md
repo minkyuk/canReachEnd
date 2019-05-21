@@ -43,6 +43,7 @@ Out of 5 repeats, <br />
 
 **Memoization added x8.3 boost in performance on average to a base-line.** <br />
 
-**Greedy checking on reachability in O(n) was x1.4 boost in performance on average to a base-line. **<br />
+
+**Greedy checking on reachability in O(n) was x1.4 boost in performance on average to a base-line.** <br />
 
 More detail for each function is included in the code in the comment. 
