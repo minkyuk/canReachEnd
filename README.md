@@ -1,4 +1,4 @@
-## Timing report on 4 non-independent implemenations of _canReachEnd_
+## **Timing report on 4 non-independent implemenations of _canReachEnd_**
 
 ##### Problem: For an array of non-negative integers, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Determine if you are able to reach the last index.
 [2,2,0,2,4] -> Yes
