@@ -1,12 +1,12 @@
-## **Timing report on 4 non-independent implemenations of _canReachEnd_**
+## **Timing report on 4 non-independent implemenations of _canReachEnd_** <br />
 
 ##### Problem: For an array of non-negative integers, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Determine if you are able to reach the last index.
 [2,2,0,2,4] -> Yes
 [3,2,1,0,4] -> No
 [5] -> Yes
 
-## **Naive implementation without memoization** <br />
-## *
+### **Naive implementation without memoization** <br />
+### *
 Testing canReachEnd1 <br />
 Out of 5 repeats, <br />
 &nbsp; Worst runtime was 0.003669333. <br />
@@ -15,8 +15,8 @@ Out of 5 repeats, <br />
 
 <br />
 
-## **Impl. with memoization, but using semi-global cache in func. attribute** <br />
-## **
+### **Impl. with memoization, but using semi-global cache in func. attribute** <br />
+### **
 Testing canReachEnd2 <br />
 Out of 5 repeats, <br />
 &nbsp; Worst runtime was 0.0004544.  <br />
@@ -25,7 +25,7 @@ Out of 5 repeats, <br />
 
 <br />
 
-## **Implementation with memoization; No global cache.** <br />
+### **Implementation with memoization; No global cache.** <br />
 ### ***
 Testing Memoized Function <br />
 Out of 5 repeats, <br />
@@ -35,8 +35,8 @@ Out of 5 repeats, <br />
 
 <br />
 
-## **Checking dynamic reachability up to index i ~ last index in O(n) runtime (DP-approach)** <br />
-## *
+### **Checking dynamic reachability up to index i ~ last index in O(n) runtime (DP-approach)** <br />
+### *
 
 Testing canReachEnd4 <br />
 Out of 5 repeats, <br />
