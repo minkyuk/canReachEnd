@@ -35,7 +35,7 @@ Out of 5 repeats, <br />
 
 <br />
 
-## **Implementation by checking dynamic reachability up to index i ~ last index in O(n) runtime (DP-approach)** <br />
+## **Checking dynamic reachability up to index i ~ last index in O(n) runtime (DP-approach)** <br />
 ## *
 
 Testing canReachEnd4 <br />
@@ -45,9 +45,9 @@ Out of 5 repeats, <br />
 &nbsp; &nbsp;  Average runtime was 0.00268288. <br /> 
 
 
-##### **Memoization added x8.3 boost in performance on average to a base-line.**
-##### **Greedy checking on reachability in O(n) was x1.4 boost in performance on average to a base-line.** 
-##### **Using global/non-global cache yields no difference in performance as expected**
+#### **Memoization added x8.3 boost in performance on average to a base-line.**
+#### **Greedy checking on reachability in O(n) was x1.4 boost in performance on average to a base-line.** 
+#### **Using global/non-global cache yields no difference in performance as expected**
 
 
 <br />
