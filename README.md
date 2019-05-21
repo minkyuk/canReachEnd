@@ -44,7 +44,9 @@ Out of 5 repeats, <br />
 &nbsp; Best runtime was 0.003024213. <br />
 &nbsp; &nbsp;  Average runtime was 0.00268288. <br /> 
 
+<br />
 
+Reflections- <br />
 #### **Memoization added x8.3 boost in performance on average to a base-line.**
 #### **Greedy checking on reachability in O(n) was x1.4 boost in performance on average to a base-line.** 
 #### **Using global/non-global cache yields no difference in performance as expected**
