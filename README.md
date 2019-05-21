@@ -1,4 +1,4 @@
-**Naive implementation without memoization.** <br />
+**Naive implementation without memoization** <br />
 
  
 Testing canReachEnd1 <br />
@@ -8,6 +8,7 @@ Out of 5 repeats, <br />
 &nbsp; &nbsp;  Average runtime was 0.0037864106.<br />
 
 <br />
+
 **Implementation with memoization, but using additional function attribute for cache** <br />
 
 
@@ -18,6 +19,7 @@ Out of 5 repeats, <br />
 &nbsp; &nbsp;  Average runtime was 0.0004648108. <br />
 
 <br />
+
 **Implementation with memoization; No global cache required.** <br />
 
 
@@ -28,6 +30,7 @@ Out of 5 repeats, <br />
 &nbsp; &nbsp; Average runtime was 0.0004577282. <br />
 
 <br />
+
 **Fast Implementation by checking reachability up to index i ~ up to last index in O(n) runtime.
 (DP-approach)**<br />
 
