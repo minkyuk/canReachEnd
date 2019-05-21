@@ -5,43 +5,44 @@
 [3,2,1,0,4] -> No
 [5] -> Yes
 
-## **Naive implementation without memoization** 
+## **Naive implementation without memoization** <br />
 ## *
-Testing canReachEnd1 
-Out of 5 repeats, 
-&nbsp; Worst runtime was 0.003669333.
-&nbsp; Best runtime was 0.002925653.
-&nbsp; &nbsp;  Average runtime was 0.0037864106.
+Testing canReachEnd1 <br />
+Out of 5 repeats, <br />
+&nbsp; Worst runtime was 0.003669333. <br />
+&nbsp; Best runtime was 0.002925653. <br />
+&nbsp; &nbsp;  Average runtime was 0.0037864106.<br />
 
+<br />
 
-
-## **Impl. with memoization, but using semi-global cache in func. attribute** 
+## **Impl. with memoization, but using semi-global cache in func. attribute** <br />
 ## **
-Testing canReachEnd2 
-Out of 5 repeats, 
-&nbsp; Worst runtime was 0.0004544.  
-&nbsp; Best runtime was 0.00044416. 
-&nbsp; &nbsp;  Average runtime was 0.0004648108. 
+Testing canReachEnd2 <br />
+Out of 5 repeats, <br />
+&nbsp; Worst runtime was 0.0004544.  <br />
+&nbsp; Best runtime was 0.00044416. <br />
+&nbsp; &nbsp;  Average runtime was 0.0004648108. <br />
 
+<br />
 
-
-## **Implementation with memoization; No global cache.** 
+## **Implementation with memoization; No global cache.** <br />
 ### ***
-Testing Memoized Function 
-Out of 5 repeats, 
-&nbsp; Worst runtime was 0.00052608. 
-&nbsp; Best runtime was 0.000510294. 
-&nbsp; &nbsp; Average runtime was 0.0004577282. 
+Testing Memoized Function <br />
+Out of 5 repeats, <br />
+&nbsp; Worst runtime was 0.00052608. <br />
+&nbsp; Best runtime was 0.000510294. <br />
+&nbsp; &nbsp; Average runtime was 0.0004577282. <br />
 
+<br />
 
-## **Implementation by checking dynamic reachability up to index i ~ last index in O(n) runtime (DP-approach)** 
+## **Implementation by checking dynamic reachability up to index i ~ last index in O(n) runtime (DP-approach)** <br />
 ## *
 
-Testing canReachEnd4 
-Out of 5 repeats, 
-&nbsp; Worst runtime was 0.002449067. 
-&nbsp; Best runtime was 0.003024213. 
-&nbsp; &nbsp;  Average runtime was 0.00268288. 
+Testing canReachEnd4 <br />
+Out of 5 repeats, <br />
+&nbsp; Worst runtime was 0.002449067. <br />
+&nbsp; Best runtime was 0.003024213. <br />
+&nbsp; &nbsp;  Average runtime was 0.00268288. <br /> 
 
 
 ##### **Memoization added x8.3 boost in performance on average to a base-line.**
@@ -49,6 +50,6 @@ Out of 5 repeats,
 ##### **Using global/non-global cache yields no difference in performance as expected**
 
 
-
-More detail for each function is included in the code in the comment. 
+<br />
+More detail for each function is included in the code in the comment. <br />
 unit: seconds
